@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Mercado Liebre</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="elements/css/normalize.css">
+    <link rel='stylesheet' type='text/css' media='screen' href='elements/css/styles.css'>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <script src='main.js'></script>
+</head>
+<body>
+    <header>
+        <div class="logo-bar-text">
+            <a href="/"><img class="logo" src='elements/images/logo-mercado-liebre.svg' alt='logo'></a>
+            <div class="search-bar"><input type="search" name="¿Qué estas buscando?" placeholder="   Buscar productos"><button><i class="fas fa-search"></i></button></div>
+            <p class="titulo1"><i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de crédito</p>
+        </div>
+
+
+        <nav class="nav-bar">
+            <ul>
+                <li> <a href="#">Ofertas</a></li>
+                <li> <a href="#">Tiendas Oficiales</a></li>
+                <li> <a href="#">Vender</a></li>
+                <li> <a href="#">Ayuda</a></li>
+            </ul>
+            <ul class="nav-icons">
+                <li> <a href="/register">Creá tu cuenta <i class="far fa-address-card"></i></a></li>
+                <li> <a href="/login">Ingresá <i class="fas fa-sign-in-alt"></i></a></li>
+                <li> <a href="#">Mis compras <i class="fas fa-shopping-basket"></i></a></li>
+            </ul>
+        </nav>
+
+        <div class="burger-menu">
+            <i class="fa fa-bars burger"></i>
+        </div>
+
+    </header>
+
+    <div id="titulo-registrar"><b>Completa tus datos</b></div>
+    
+    <div id="form-parent">
+        <form action="/" type="/registro" method="GET">
+            <div class="input-registro">
+                <label for="nombre">Nombre y Apellido:</label>
+                <input type="text" name="nombre">
+            </div>
+
+            <div class="input-registro">
+                <label for="usuario">Nombre de usuario:</label>
+                <input type="text" name="usuario">
+            </div>
+
+
+            <div class="input-registro">
+                <label for="nacimiento">Fecha de Nacimiento:</label>
+                <input type="date" name="nacimiento">
+            </div>
+
+            <div class="input-registro">
+                <label for="domicilio">Domicilio:</label>
+                <input type="text" name="domicilio">
+            </div>
+
+            <div class="input-registro-radio">
+                <label for="perfil">Perfil:</label>
+                <br>
+                <br>
+                <input type="radio" name="perfil" value="Comprador">
+                <label for="perfil">Comprador</label>
+                <input type="radio" name="perfil" value="Vendedor">
+                <label for="perfil">Vendedor</label>
+            </div>
+        
+            <div class="input-registro-checkbox">
+                <label for="perfil">Categorías:</label>
+                <br>
+                <br>
+                <input type="checkbox" name="categoria" value="Electro">
+                <label for="categoria">Electro</label>
+
+                <input type="checkbox" name="categoria" value="Moda">
+                <label for="categoria">Vendedor</label>
+                
+                <input type="checkbox" name="categoria" value="Hogar">
+                <label for="categoria">Hogar</label>
+
+                <input type="checkbox" name="categoria" value="Jugueteria">
+                <label for="categoria">Juguetería</label>
+
+                <input type="checkbox" name="categoria" value="Vida Sana">
+                <label for="categoria">Vida Sana</label>
+
+            </div>
+
+
+            <div class="input-foto">
+                <label for="foto">Seleccionar foto:</label>
+                <input type="file" name="foto">
+            </div>
+        
+            <div class="input-registro">
+                <label for="contraseña">Contraseña</label>
+                <input type="password" name="contraseña">
+            </div>
+
+            <div class="input-registro">
+                <label for="confirmar-contraseña">Confirmar contraseña</label>
+                <input type="password" name="confirmar-contraseña">
+            </div>
+
+            <div class="buttons">
+                <button type="reset">Borrar</button>
+                <button tye="submit">Guardar</button>
+            </div>
+    
+        
+        </form>
+    </div>
+
+
+
+</body>
+</html>

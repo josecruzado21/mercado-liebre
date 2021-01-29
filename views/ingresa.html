@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Mercado Liebre</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="elements/css/normalize.css">
+    <link rel='stylesheet' type='text/css' media='screen' href='elements/css/styles.css'>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <script src='main.js'></script>
+</head>
+<body>
+    <header>
+        <div class="logo-bar-text">
+            <a href="/"><img class="logo" src='elements/images/logo-mercado-liebre.svg' alt='logo'></a>
+            <div class="search-bar"><input type="search" name="¿Qué estas buscando?" placeholder="   Buscar productos"><button><i class="fas fa-search"></i></button></div>
+            <p class="titulo1"><i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de crédito</p>
+        </div>
+
+
+        <nav class="nav-bar">
+            <ul>
+                <li> <a href="#">Ofertas</a></li>
+                <li> <a href="#">Tiendas Oficiales</a></li>
+                <li> <a href="#">Vender</a></li>
+                <li> <a href="#">Ayuda</a></li>
+            </ul>
+            <ul class="nav-icons">
+                <li> <a href="/register">Creá tu cuenta <i class="far fa-address-card"></i></a></li>
+                <li> <a href="/login">Ingresá <i class="fas fa-sign-in-alt"></i></a></li>
+                <li> <a href="#">Mis compras <i class="fas fa-shopping-basket"></i></a></li>
+            </ul>
+        </nav>
+
+        <div class="burger-menu">
+            <i class="fa fa-bars burger"></i>
+        </div>
+
+    </header>
+    <div id="titulo-registrar"><b>Inicia Sesión</b></div>
+    <div id="form-parent">
+    <form action="/" method="GET">
+
+        <div class="input-login">
+            <label for="usuario">Nombre de usuario:</label>
+            <input type="text" name="usuario">
+        </div>
+    
+        <div class="input-login">
+            <label for="contraseña">Contraseña:</label>
+            <input type="password" name="contraseña">
+        </div>
+
+        <div class="buttons">
+            <button tye="submit" id="login-button">Iniciar Sesión</button>
+        </div>
+
+
+    
+    
+    </form>
+    </div>
+
+</body>
+</html>
